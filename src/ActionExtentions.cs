@@ -37,6 +37,7 @@ namespace NetExtentions
             if (!waitInfinitely)
             {
                 heartbeatTimeSpan = aTimeout > heartbeatTimeSpan ? heartbeatTimeSpan : TimeSpan.FromMilliseconds(aTimeout.Value.Milliseconds / 10.0);
+                aPolledCondition.Log().Info("heartbeat for polling set to {0}", heartbeatTimeSpan);
             }
             DateTime actionStartedDateTime = DateTime.Now;
             DateTime lastMessageHeartbeat = DateTime.Now;
