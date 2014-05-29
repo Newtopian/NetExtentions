@@ -38,7 +38,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="this.Log">
-      <HintPath>..\..\packages\this.Log.0.0.3.0\lib\net40\this.Log.dll</HintPath>
+      <HintPath>..\packages\this.Log.0.0.3.0\lib\net40\this.Log.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
